@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F8422BF201466E8003BFF5A /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422BD201466E1003BFF5A /* WoodPeckeriOS.framework */; };
-		1F8422C0201466E8003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422BD201466E1003BFF5A /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F8422C720146CEE003BFF5A /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */; };
+		1F8422C820146CEE003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F9DC462200F83C700DFC64E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC461200F83C700DFC64E /* AppDelegate.m */; };
 		1F9DC46A200F83C700DFC64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC469200F83C700DFC64E /* Assets.xcassets */; };
 		1F9DC46D200F83C700DFC64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC46B200F83C700DFC64E /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1F8422C0201466E8003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */,
+				1F8422C820146CEE003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F8422BD201466E1003BFF5A /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WoodPeckeriOS.framework; sourceTree = "<group>"; };
+		1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WoodPeckeriOS.framework; path = ../../WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		1F9DC45D200F83C700DFC64E /* WoodPeckerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodPeckerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9DC460200F83C700DFC64E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F9DC461200F83C700DFC64E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8422BF201466E8003BFF5A /* WoodPeckeriOS.framework in Frameworks */,
+				1F8422C720146CEE003BFF5A /* WoodPeckeriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 				1F9DC46B200F83C700DFC64E /* LaunchScreen.storyboard */,
 				1F9DC46E200F83C700DFC64E /* Info.plist */,
 				1F9DC46F200F83C700DFC64E /* main.m */,
-				1F8422BD201466E1003BFF5A /* WoodPeckeriOS.framework */,
+				1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */,
 			);
 			path = WoodPeckerDemo;
 			sourceTree = "<group>";
@@ -400,10 +400,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73AAK57BJ2;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WoodPeckerDemo",
+					"$(PROJECT_DIR)/../",
 				);
 				INFOPLIST_FILE = WoodPeckerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -421,10 +421,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73AAK57BJ2;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WoodPeckerDemo",
+					"$(PROJECT_DIR)/../",
 				);
 				INFOPLIST_FILE = WoodPeckerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

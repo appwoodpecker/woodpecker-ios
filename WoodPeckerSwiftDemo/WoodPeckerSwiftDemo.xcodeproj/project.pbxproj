@@ -19,10 +19,10 @@
 		1F8422A420143E28003BFF5A /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422A320143E28003BFF5A /* NetworkViewController.swift */; };
 		1F8422A620144831003BFF5A /* IOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422A520144831003BFF5A /* IOViewController.swift */; };
 		1F8422B020145079003BFF5A /* EchoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422AF20145079003BFF5A /* EchoService.swift */; };
-		1F8422B720145ED1003BFF5A /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422B520145ECB003BFF5A /* WoodPeckeriOS.framework */; };
-		1F8422B820145ED1003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422B520145ECB003BFF5A /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F8422BA20145F61003BFF5A /* WebConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422B920145F61003BFF5A /* WebConsoleViewController.swift */; };
 		1F8422BC20145FC7003BFF5A /* WebContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422BB20145FC7003BFF5A /* WebContentViewController.swift */; };
+		1F8422C220146BFA003BFF5A /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */; };
+		1F8422C420146C03003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F90227520131F84007335EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90227420131F84007335EA /* AppDelegate.swift */; };
 		1F90227C20131F84007335EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F90227B20131F84007335EA /* Assets.xcassets */; };
 		1F90227F20131F84007335EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F90227D20131F84007335EA /* LaunchScreen.storyboard */; };
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1F8422B820145ED1003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */,
+				1F8422C420146C03003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,9 +56,9 @@
 		1F8422A520144831003BFF5A /* IOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOViewController.swift; sourceTree = "<group>"; };
 		1F8422A820144B9C003BFF5A /* WoodPeckerSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WoodPeckerSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		1F8422AF20145079003BFF5A /* EchoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoService.swift; sourceTree = "<group>"; };
-		1F8422B520145ECB003BFF5A /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		1F8422B920145F61003BFF5A /* WebConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConsoleViewController.swift; sourceTree = "<group>"; };
 		1F8422BB20145FC7003BFF5A /* WebContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentViewController.swift; sourceTree = "<group>"; };
+		1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WoodPeckeriOS.framework; path = ../../WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		1F90227120131F84007335EA /* WoodPeckerSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodPeckerSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F90227420131F84007335EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F90227B20131F84007335EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8422B720145ED1003BFF5A /* WoodPeckeriOS.framework in Frameworks */,
+				1F8422C220146BFA003BFF5A /* WoodPeckeriOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +164,7 @@
 				1F90227D20131F84007335EA /* LaunchScreen.storyboard */,
 				1F90228020131F84007335EA /* Info.plist */,
 				1F8422A820144B9C003BFF5A /* WoodPeckerSwiftDemo-Bridging-Header.h */,
-				1F8422B520145ECB003BFF5A /* WoodPeckeriOS.framework */,
+				1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */,
 			);
 			path = WoodPeckerSwiftDemo;
 			sourceTree = "<group>";
@@ -385,10 +385,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73AAK57BJ2;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WoodPeckerSwiftDemo",
+					"$(PROJECT_DIR)/../",
 				);
 				INFOPLIST_FILE = WoodPeckerSwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -407,10 +407,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73AAK57BJ2;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WoodPeckerSwiftDemo",
+					"$(PROJECT_DIR)/../",
 				);
 				INFOPLIST_FILE = WoodPeckerSwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
