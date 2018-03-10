@@ -9,7 +9,8 @@
 import UIKit
 import WebKit
 
-class WebContentViewController: UIViewController {
+class WebContentViewController: UIViewController,WKUIDelegate
+{
 
     @IBOutlet var contentView: UIView?
     var uiwebView: Bool?
@@ -41,6 +42,7 @@ class WebContentViewController: UIViewController {
             self.webView = webView
         }else{
             let wkWebView = WKWebView()
+            wkWebView.uiDelegate = self;
             wkWebView.frame = contentView.bounds;
             wkWebView.autoresizingMask = [.flexibleWidth,.flexibleHeight]
             contentView.addSubview(wkWebView)
@@ -60,9 +62,32 @@ class WebContentViewController: UIViewController {
         }
     }
     
+/// uidelegate (Alert,Confirm support)
+    func webView(_ webView: WKWebView, runJavaScriptAlertPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
+    {
+        let alert = UIAlertController.init(title: "Alert", message: message, preferredStyle: UIAlertControllerStyle.alert);
+        let confirm = UIAlertAction.init(title: "Ok", style: UIAlertActionStyle.default) { (action) in
+            completionHandler();
+        }
+        alert.addAction(confirm);
+        self.present(alert, animated: true, completion: nil);
+    }
     
     
-
+    public func webView(_ webView: WKWebView, runJavaScriptConfirmPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping (Bool) -> Swift.Void)
+    {
+        let alert = UIAlertController.init(title: "Alert", message: message, preferredStyle: UIAlertControllerStyle.alert);
+        let cancel = UIAlertAction.init(title: "Cancel", style: UIAlertActionStyle.default) { (action) in
+            completionHandler(false);
+        }
+        let confirm = UIAlertAction.init(title: "Ok", style: UIAlertActionStyle.default) { (action) in
+            completionHandler(true);
+        }
+        alert.addAction(cancel);
+        alert.addAction(confirm);
+        self.present(alert, animated: true, completion: nil);
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

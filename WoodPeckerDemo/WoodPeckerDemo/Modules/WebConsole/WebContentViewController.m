@@ -10,7 +10,7 @@
 @import WebKit;
 @import UIKit;
 
-@interface WebContentViewController ()
+@interface WebContentViewController ()<WKUIDelegate>
 
 @property (nonatomic, strong) UIWebView * webView;
 @property (nonatomic, strong) WKWebView * wkWebView;
@@ -38,6 +38,7 @@
         self.webView = webView;
     }else{
         WKWebView * wkWebView = [[WKWebView alloc] init];
+        wkWebView.UIDelegate = self;
         wkWebView.frame = contentView.bounds;
         wkWebView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [contentView addSubview:wkWebView];
@@ -56,6 +57,34 @@
     }else{
         [self.wkWebView loadRequest:request];
     }
+}
+
+#pragma mark -----------------   wkwebview uidelegate (Alert,Confirm support)  ----------------
+
+- (void)webView:(WKWebView *)webView runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(void))completionHandler
+{
+    if(message.length == 0) return;
+    UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Alert" message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction * confirm = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        completionHandler();
+    }];
+    [alert addAction:confirm];
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+- (void)webView:(WKWebView *)webView runJavaScriptConfirmPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(BOOL result))completionHandler
+{
+    if(message.length == 0) return;
+    UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Alert" message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction * cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        completionHandler(NO);
+    }];
+    UIAlertAction * confirm = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        completionHandler(YES);
+    }];
+    [alert addAction:cancel];
+    [alert addAction:confirm];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
