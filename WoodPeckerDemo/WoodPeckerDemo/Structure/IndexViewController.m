@@ -11,6 +11,8 @@
 #import "NetworkViewController.h"
 #import "IOViewController.h"
 #import "WebConsoleViewController.h"
+#import "UserDefaultsViewController.h"
+#import "DeviceInfoViewController.h"
 
 static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 
@@ -50,7 +52,14 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
                             @"title" : @"Web Console",
                             @"action" : NSStringFromSelector(@selector(webConsole)),
                             },
-                       
+                        @{
+                            @"title" : @"UserDefaults",
+                            @"action" : NSStringFromSelector(@selector(userDefaults)),
+                            },
+                        @{
+                            @"title" : @"Device",
+                            @"action" : NSStringFromSelector(@selector(device)),
+                            },
                        ];
 }
 
@@ -76,6 +85,18 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 - (void)webConsole
 {
     WebConsoleViewController * vc = [[WebConsoleViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)userDefaults
+{
+    UserDefaultsViewController * vc = [[UserDefaultsViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)device
+{
+    DeviceInfoViewController * vc = [[DeviceInfoViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

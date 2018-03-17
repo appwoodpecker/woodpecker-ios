@@ -27,6 +27,10 @@
 		1F9DC4A3200F9D3F00DFC64E /* WebContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC4A1200F9D3F00DFC64E /* WebContentViewController.m */; };
 		1F9DC4A7200F9D4800DFC64E /* WebConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC4A5200F9D4800DFC64E /* WebConsoleViewController.m */; };
 		1F9DC4A8200F9D4800DFC64E /* WebConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC4A6200F9D4800DFC64E /* WebConsoleViewController.xib */; };
+		1FE5C58F205CC1CF000EC631 /* UserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5C58D205CC1CF000EC631 /* UserDefaultsViewController.m */; };
+		1FE5C590205CC1CF000EC631 /* UserDefaultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE5C58E205CC1CF000EC631 /* UserDefaultsViewController.xib */; };
+		1FE5C595205CC35D000EC631 /* DeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5C593205CC35D000EC631 /* DeviceInfoViewController.m */; };
+		1FE5C596205CC35D000EC631 /* DeviceInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE5C594205CC35D000EC631 /* DeviceInfoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +77,12 @@
 		1F9DC4A4200F9D4800DFC64E /* WebConsoleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebConsoleViewController.h; sourceTree = "<group>"; };
 		1F9DC4A5200F9D4800DFC64E /* WebConsoleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebConsoleViewController.m; sourceTree = "<group>"; };
 		1F9DC4A6200F9D4800DFC64E /* WebConsoleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebConsoleViewController.xib; sourceTree = "<group>"; };
+		1FE5C58C205CC1CF000EC631 /* UserDefaultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultsViewController.h; sourceTree = "<group>"; };
+		1FE5C58D205CC1CF000EC631 /* UserDefaultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsViewController.m; sourceTree = "<group>"; };
+		1FE5C58E205CC1CF000EC631 /* UserDefaultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDefaultsViewController.xib; sourceTree = "<group>"; };
+		1FE5C592205CC35D000EC631 /* DeviceInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfoViewController.h; sourceTree = "<group>"; };
+		1FE5C593205CC35D000EC631 /* DeviceInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoViewController.m; sourceTree = "<group>"; };
+		1FE5C594205CC35D000EC631 /* DeviceInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceInfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,8 @@
 		1F9DC476200F842A00DFC64E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1FE5C591205CC350000EC631 /* Device */,
+				1FE5C58B205CC1B9000EC631 /* UserDefaults */,
 				1F9DC47D200F872700DFC64E /* SandBox */,
 				1F9DC47E200F872C00DFC64E /* Network */,
 				1F9DC47F200F873100DFC64E /* IO */,
@@ -184,6 +196,26 @@
 				1F9DC49F200F9D3F00DFC64E /* WebContentViewController.xib */,
 			);
 			path = WebConsole;
+			sourceTree = "<group>";
+		};
+		1FE5C58B205CC1B9000EC631 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				1FE5C58C205CC1CF000EC631 /* UserDefaultsViewController.h */,
+				1FE5C58D205CC1CF000EC631 /* UserDefaultsViewController.m */,
+				1FE5C58E205CC1CF000EC631 /* UserDefaultsViewController.xib */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		1FE5C591205CC350000EC631 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				1FE5C592205CC35D000EC631 /* DeviceInfoViewController.h */,
+				1FE5C593205CC35D000EC631 /* DeviceInfoViewController.m */,
+				1FE5C594205CC35D000EC631 /* DeviceInfoViewController.xib */,
+			);
+			path = Device;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +284,8 @@
 				1F9DC4A2200F9D3F00DFC64E /* WebContentViewController.xib in Resources */,
 				1F9DC487200F914100DFC64E /* images.xcassets in Resources */,
 				1F9DC49B200F99C300DFC64E /* IOViewController.xib in Resources */,
+				1FE5C590205CC1CF000EC631 /* UserDefaultsViewController.xib in Resources */,
+				1FE5C596205CC35D000EC631 /* DeviceInfoViewController.xib in Resources */,
 				1F9DC4A8200F9D4800DFC64E /* WebConsoleViewController.xib in Resources */,
 				1F9DC496200F94FB00DFC64E /* NetworkViewController.xib in Resources */,
 			);
@@ -267,6 +301,8 @@
 				1F9DC49E200F9AF400DFC64E /* EchoService.m in Sources */,
 				1F9DC484200F8BBE00DFC64E /* SandBoxViewController.m in Sources */,
 				1F9DC470200F83C700DFC64E /* main.m in Sources */,
+				1FE5C595205CC35D000EC631 /* DeviceInfoViewController.m in Sources */,
+				1FE5C58F205CC1CF000EC631 /* UserDefaultsViewController.m in Sources */,
 				1F9DC49A200F99C300DFC64E /* IOViewController.m in Sources */,
 				1F9DC4A3200F9D3F00DFC64E /* WebContentViewController.m in Sources */,
 				1F9DC4A7200F9D4800DFC64E /* WebConsoleViewController.m in Sources */,
