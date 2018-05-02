@@ -6,19 +6,19 @@
 	<dict>
 		<key>ADHConnectViewController.nib/objects-11.0+.nib</key>
 		<data>
-		zhrEe9g6OUc8yqgVpQOHI38/OAg=
+		sBuv4K7S3+LbPMrUF2gRhYx8caU=
 		</data>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<data>
-		OA/nYjtmYLQtrF24MTQukpLb9t4=
+		eVxk+641V0yTIFf3pNygscLxIhQ=
 		</data>
 		<key>ADHManualConnectViewController.nib</key>
 		<data>
-		eJklb6sdrr+43dVFJ6EReQe1E6I=
+		lc4z1vWMS6mWpmO4jkG11Q+6poI=
 		</data>
 		<key>ADHRemoteServiceCell.nib</key>
 		<data>
-		8hwxyjaPYN2js1QTlMDtjJevCOA=
+		M2aeP6nRBZaqpGdnpfHejHYTT9c=
 		</data>
 		<key>Headers/ADHLogger.h</key>
 		<data>
@@ -55,44 +55,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zhrEe9g6OUc8yqgVpQOHI38/OAg=
+			sBuv4K7S3+LbPMrUF2gRhYx8caU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2JhRVSnCVZzp+00z3n01r17dUYPXvNB/7JsODFERREg=
+			oIS/WE/d0h8ImX3L8xCiFkHWAekDUG968PWrhRrIA0Y=
 			</data>
 		</dict>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OA/nYjtmYLQtrF24MTQukpLb9t4=
+			eVxk+641V0yTIFf3pNygscLxIhQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			z07wMROcbjn3kwLonr5JB4/WmADDVVOtWTeWjP3cnE4=
+			AGdBCl8f6TdJ7nXfWqdWJxpYf/pmeOIlCXeyPprU2/A=
 			</data>
 		</dict>
 		<key>ADHManualConnectViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eJklb6sdrr+43dVFJ6EReQe1E6I=
+			lc4z1vWMS6mWpmO4jkG11Q+6poI=
 			</data>
 			<key>hash2</key>
 			<data>
-			1VaJ38G3bWfiowC3Kb2dAlu1d7qa1/GlAEQS4HWwuMU=
+			RhnKhMaWv+hVko++wFDhDXfpJgIJZm9RiNJ/6wiQLUc=
 			</data>
 		</dict>
 		<key>ADHRemoteServiceCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8hwxyjaPYN2js1QTlMDtjJevCOA=
+			M2aeP6nRBZaqpGdnpfHejHYTT9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			jDbsciVaw3we9F0aOq6U49Q5xBBUn1mgYqK8Qo7mYHg=
+			uBWrqrUt/wH9ExWCYzaY+TqY+EhDLQq4RxC+0Ag+HnI=
 			</data>
 		</dict>
 		<key>Headers/ADHLogger.h</key>
