@@ -6,19 +6,19 @@
 	<dict>
 		<key>ADHConnectViewController.nib/objects-11.0+.nib</key>
 		<data>
-		sBuv4K7S3+LbPMrUF2gRhYx8caU=
+		1XD1U6wX55PJCKi5jUzLpiGpowQ=
 		</data>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<data>
-		eVxk+641V0yTIFf3pNygscLxIhQ=
+		XcAkWtLXC1ctyMwfEcYzPQqOBxw=
 		</data>
 		<key>ADHManualConnectViewController.nib</key>
 		<data>
-		lc4z1vWMS6mWpmO4jkG11Q+6poI=
+		ybr9qMMjlTv7tRLatWq8PbrdXSA=
 		</data>
 		<key>ADHRemoteServiceCell.nib</key>
 		<data>
-		M2aeP6nRBZaqpGdnpfHejHYTT9c=
+		wMXhsO+jXR6+oUvfOe3wTlUMFQY=
 		</data>
 		<key>Headers/ADHLogger.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vhV3kTmSyPeAD0Jw1EGWjo2dvDo=
+		pbpcu9VAUGbSG4nAH0xgdHRj33I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,44 +55,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sBuv4K7S3+LbPMrUF2gRhYx8caU=
+			1XD1U6wX55PJCKi5jUzLpiGpowQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			oIS/WE/d0h8ImX3L8xCiFkHWAekDUG968PWrhRrIA0Y=
+			007ZuZJPxdEUGc5l+3Wd4XsBqooSCUf/C4rUB7MnG6Y=
 			</data>
 		</dict>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eVxk+641V0yTIFf3pNygscLxIhQ=
+			XcAkWtLXC1ctyMwfEcYzPQqOBxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			AGdBCl8f6TdJ7nXfWqdWJxpYf/pmeOIlCXeyPprU2/A=
+			cQIioJ8ByT41D3+Mzq79BR1pJy6KRw78BcR1dJqBA64=
 			</data>
 		</dict>
 		<key>ADHManualConnectViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lc4z1vWMS6mWpmO4jkG11Q+6poI=
+			ybr9qMMjlTv7tRLatWq8PbrdXSA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RhnKhMaWv+hVko++wFDhDXfpJgIJZm9RiNJ/6wiQLUc=
+			pH9VdP6kHwR858PizAFxWZiTV+KoQoGVlet0pHRqvyM=
 			</data>
 		</dict>
 		<key>ADHRemoteServiceCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M2aeP6nRBZaqpGdnpfHejHYTT9c=
+			wMXhsO+jXR6+oUvfOe3wTlUMFQY=
 			</data>
 			<key>hash2</key>
 			<data>
-			uBWrqrUt/wH9ExWCYzaY+TqY+EhDLQq4RxC+0Ag+HnI=
+			yXxDoaTo0B9YD1VvLs+kTC46oTn0VFE9bgqGO1/fzOU=
 			</data>
 		</dict>
 		<key>Headers/ADHLogger.h</key>

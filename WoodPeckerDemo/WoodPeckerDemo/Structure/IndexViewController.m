@@ -13,6 +13,7 @@
 #import "WebConsoleViewController.h"
 #import "UserDefaultsViewController.h"
 #import "DeviceInfoViewController.h"
+#import "ControllerHierarchyViewController.h"
 
 static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 
@@ -28,7 +29,7 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"WoodPecker Demo";
+    self.navigationItem.title = @"Woodpecker Demo";
     self.tableView.rowHeight = 60.0f;
     [self loadData];
 }
@@ -59,6 +60,10 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
                         @{
                             @"title" : @"Device",
                             @"action" : NSStringFromSelector(@selector(device)),
+                            },
+                        @{
+                            @"title" : @"Controller Hierarchy",
+                            @"action" : NSStringFromSelector(@selector(controller)),
                             },
                        ];
 }
@@ -98,6 +103,12 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 {
     DeviceInfoViewController * vc = [[DeviceInfoViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)controller {
+    ControllerHierarchyViewController *nextVC = [[ControllerHierarchyViewController alloc] init];
+    nextVC.pageIndex = 0;
+    [self.navigationController pushViewController:nextVC animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

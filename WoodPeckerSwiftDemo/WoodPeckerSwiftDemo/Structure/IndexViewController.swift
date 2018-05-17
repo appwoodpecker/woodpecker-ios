@@ -23,7 +23,7 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "WoodPecker Demo";
+        self.navigationItem.title = "Woodpecker Demo";
         self.tableView.rowHeight = 60.0;
         self.loadData()
     }
@@ -46,6 +46,10 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
                 [
                 "title" : "Web Console",
                 "action" : #selector(IndexViewController.webConsole)
+                ],
+                [
+                    "title" : "More tools",
+                    "action" : #selector(IndexViewController.more)
                 ]
         ]
     }
@@ -70,6 +74,16 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
     @objc func webConsole(){
         let vc = WebConsoleViewController()
         self.navigationController!.pushViewController(vc,animated:true)
+    }
+    
+    @objc func more(){
+        let message = "You can learn more in the Objective-C demo";
+        let alert = UIAlertController.init(title: "Alert", message: message, preferredStyle: UIAlertControllerStyle.alert);
+        let confirm = UIAlertAction.init(title: "Ok", style: UIAlertActionStyle.default) { (action) in
+            
+        }
+        alert.addAction(confirm);
+        self.present(alert, animated: true, completion: nil);
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
