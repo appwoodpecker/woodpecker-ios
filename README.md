@@ -1,4 +1,6 @@
 
+![logo](/logo.png)
+
 Hi! this is a demo app for **Woodpecker**
 
 **Woodpecker** is a tool for iOS developer, it provides some handy and productive tools which Xcode doesn't. 
