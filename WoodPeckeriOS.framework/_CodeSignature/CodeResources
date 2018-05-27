@@ -6,19 +6,19 @@
 	<dict>
 		<key>ADHConnectViewController.nib/objects-11.0+.nib</key>
 		<data>
-		1XD1U6wX55PJCKi5jUzLpiGpowQ=
+		suOM2P5nqiJ88eYuAIPPYjQ9QeI=
 		</data>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<data>
-		XcAkWtLXC1ctyMwfEcYzPQqOBxw=
+		rW+YAvWz22nB1Q6J3d97L+Ksmzs=
 		</data>
 		<key>ADHManualConnectViewController.nib</key>
 		<data>
-		ybr9qMMjlTv7tRLatWq8PbrdXSA=
+		Nx2Hz9lBBKBEBvI0OR9u0yYWprQ=
 		</data>
 		<key>ADHRemoteServiceCell.nib</key>
 		<data>
-		wMXhsO+jXR6+oUvfOe3wTlUMFQY=
+		x2bqRDb5ypzC5ZThP86LY2u0T1k=
 		</data>
 		<key>Headers/ADHLogger.h</key>
 		<data>
@@ -42,11 +42,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pbpcu9VAUGbSG4nAH0xgdHRj33I=
+		njWIw1kjJJ0qnGj35gDEEM1fFMg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		uytDu9Ql07vN0alhWqpDzzrojIs=
+		</data>
+		<key>adhwebdebugger.bundle/mock.js</key>
+		<data>
+		FLRB96WJXXonP47JA2gBfsxLH2o=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,44 +59,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1XD1U6wX55PJCKi5jUzLpiGpowQ=
+			suOM2P5nqiJ88eYuAIPPYjQ9QeI=
 			</data>
 			<key>hash2</key>
 			<data>
-			007ZuZJPxdEUGc5l+3Wd4XsBqooSCUf/C4rUB7MnG6Y=
+			XU94B8ELn2hgdXiRHkaYAa1UYfz13T+jtEB+mb2pv6k=
 			</data>
 		</dict>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XcAkWtLXC1ctyMwfEcYzPQqOBxw=
+			rW+YAvWz22nB1Q6J3d97L+Ksmzs=
 			</data>
 			<key>hash2</key>
 			<data>
-			cQIioJ8ByT41D3+Mzq79BR1pJy6KRw78BcR1dJqBA64=
+			uSAL4R8XZUognUHm3VgOjU7esfIum4dK9paYQtUOxVU=
 			</data>
 		</dict>
 		<key>ADHManualConnectViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ybr9qMMjlTv7tRLatWq8PbrdXSA=
+			Nx2Hz9lBBKBEBvI0OR9u0yYWprQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			pH9VdP6kHwR858PizAFxWZiTV+KoQoGVlet0pHRqvyM=
+			WMsc9ze4XH0gndlJFAI/fCIiX5cX2qS4QEHalGMCfQg=
 			</data>
 		</dict>
 		<key>ADHRemoteServiceCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wMXhsO+jXR6+oUvfOe3wTlUMFQY=
+			x2bqRDb5ypzC5ZThP86LY2u0T1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			yXxDoaTo0B9YD1VvLs+kTC46oTn0VFE9bgqGO1/fzOU=
+			iXMS0J8/uztDsmf8YlkohtRER9y687iiiUve4iHrWlI=
 			</data>
 		</dict>
 		<key>Headers/ADHLogger.h</key>
@@ -159,6 +163,17 @@
 			<key>hash2</key>
 			<data>
 			1PST2FmpFCkiPZ3i3V5g1CguJHZwfC2IwIxxLUV68nY=
+			</data>
+		</dict>
+		<key>adhwebdebugger.bundle/mock.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FLRB96WJXXonP47JA2gBfsxLH2o=
+			</data>
+			<key>hash2</key>
+			<data>
+			ayRFfC84NHc2UQEXY+mRb+zXlu1kaKYxoR3lKBbhKSM=
 			</data>
 		</dict>
 	</dict>
