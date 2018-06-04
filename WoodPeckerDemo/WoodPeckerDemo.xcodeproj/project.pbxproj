@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3A946420C570C7008AE09A /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A946220C570C7008AE09A /* NotificationViewController.m */; };
+		1F3A946520C570C7008AE09A /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A946320C570C7008AE09A /* NotificationViewController.xib */; };
 		1F40B7FC204ABA3F00FF41B8 /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */; };
 		1F40B7FD204ABA3F00FF41B8 /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F9DC462200F83C700DFC64E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC461200F83C700DFC64E /* AppDelegate.m */; };
@@ -50,6 +52,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F3A946120C570C7008AE09A /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		1F3A946220C570C7008AE09A /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		1F3A946320C570C7008AE09A /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
 		1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WoodPeckeriOS.framework; path = ../../WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		1F9DC45D200F83C700DFC64E /* WoodPeckerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodPeckerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9DC460200F83C700DFC64E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +107,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F3A946020C5709E008AE09A /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				1F3A946120C570C7008AE09A /* NotificationViewController.h */,
+				1F3A946220C570C7008AE09A /* NotificationViewController.m */,
+				1F3A946320C570C7008AE09A /* NotificationViewController.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
 		1F9DC454200F83C700DFC64E = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +153,7 @@
 		1F9DC476200F842A00DFC64E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1F3A946020C5709E008AE09A /* Notification */,
 				1FB43ABB20ADCA7600BD5B85 /* Controller */,
 				1FE5C591205CC350000EC631 /* Device */,
 				1FE5C58B205CC1B9000EC631 /* UserDefaults */,
@@ -305,6 +321,7 @@
 				1FE5C596205CC35D000EC631 /* DeviceInfoViewController.xib in Resources */,
 				1F9DC4A8200F9D4800DFC64E /* WebConsoleViewController.xib in Resources */,
 				1F9DC496200F94FB00DFC64E /* NetworkViewController.xib in Resources */,
+				1F3A946520C570C7008AE09A /* NotificationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +337,7 @@
 				1F9DC470200F83C700DFC64E /* main.m in Sources */,
 				1FE5C595205CC35D000EC631 /* DeviceInfoViewController.m in Sources */,
 				1FE5C58F205CC1CF000EC631 /* UserDefaultsViewController.m in Sources */,
+				1F3A946420C570C7008AE09A /* NotificationViewController.m in Sources */,
 				1F9DC49A200F99C300DFC64E /* IOViewController.m in Sources */,
 				1F9DC4A3200F9D3F00DFC64E /* WebContentViewController.m in Sources */,
 				1F9DC4A7200F9D4800DFC64E /* WebConsoleViewController.m in Sources */,

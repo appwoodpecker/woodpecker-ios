@@ -27,6 +27,11 @@ extern NSString * const ADHOrgnizerWindowDidVisible;
  */
 - (void)registerService: (Class)serviceClazz;
 
+/**
+ working well
+ */
+- (BOOL)isWorking;
+
 
 //private do not call
 - (ADHAppConnector *) connector;

@@ -8,15 +8,13 @@
 
 #import "AppDelegate.h"
 #import "IndexViewController.h"
+@import UserNotifications;
 
-@interface AppDelegate ()
-
-
+@interface AppDelegate ()<UNUserNotificationCenterDelegate>
 
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow * window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -26,7 +24,36 @@
     self.window = window;
     self.window.rootViewController = nvc;
     [self.window makeKeyAndVisible];
+    [self setupNotification];
     return YES;
+}
+
+- (void)setupNotification {
+    if (@available(iOS 10.0, *)) {
+        UNUserNotificationCenter * notiCenter = [UNUserNotificationCenter currentNotificationCenter];
+        notiCenter.delegate = self;
+        UNNotificationAction *openAction = [UNNotificationAction actionWithIdentifier:UNNotificationDefaultActionIdentifier title:@"Okay" options:0];
+        UNNotificationAction *customAction = [UNNotificationAction actionWithIdentifier:@"custum action" title:@"Do Something" options:0];
+        UNNotificationCategory *category = [UNNotificationCategory categoryWithIdentifier:@"actionCategory" actions:@[openAction,customAction] intentIdentifiers:@[] options:0];
+        NSSet *set = [NSSet setWithObjects:category, nil];
+        [notiCenter setNotificationCategories:set];
+    }
+}
+
+/** The method will be called on the delegate only if the application is in the foreground. If the method is not implemented or the handler is not called in a timely manner then the notification will not be presented. The application can choose to have the notification presented as a sound, badge, alert and/or in the notification list. This decision should be based on whether the information in the notification is otherwise visible to the user.
+ */
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler
+API_AVAILABLE(ios(10.0)){
+    NSLog(@"will present notification");
+    completionHandler(UNNotificationPresentationOptionSound|UNNotificationPresentationOptionAlert|UNNotificationPresentationOptionBadge);
+}
+
+/** The method will be called on the delegate when the user responded to the notification by opening the application, dismissing the notification or choosing a UNNotificationAction. The delegate must be set before the application returns from application:didFinishLaunchingWithOptions:.
+ */
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)(void))completionHandler
+API_AVAILABLE(ios(10.0)){
+    NSLog(@"did receive notification response");
+    completionHandler();
 }
 
 

@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name                        = "WoodPeckeriOS"
-  s.version                     = "1.0.8"
-  s.summary                     = "iOS framework for WoodPekcer Mac App"
+  s.version                     = "1.0.9"
+  s.summary                     = "iOS framework for Woodpekcer Mac App"
   s.description                 = "Woodpecker is a handy, powerful Mac app for iOS developer, it helps you view, modify sandbox files, monitor network, run javascript in WebView, and more..."
   s.homepage                    = "http://www.woodpeck.cn"
   s.authors                     = { "Woodpecker" => "woodperckerapp@163.com" }

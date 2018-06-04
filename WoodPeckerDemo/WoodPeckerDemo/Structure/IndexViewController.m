@@ -14,6 +14,7 @@
 #import "UserDefaultsViewController.h"
 #import "DeviceInfoViewController.h"
 #import "ControllerHierarchyViewController.h"
+#import "NotificationViewController.h"
 
 static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 
@@ -65,6 +66,10 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
                             @"title" : @"Controller Hierarchy",
                             @"action" : NSStringFromSelector(@selector(controller)),
                             },
+                        @{
+                            @"title" : @"Notification",
+                            @"action" : NSStringFromSelector(@selector(notification)),
+                            },
                        ];
 }
 
@@ -109,6 +114,11 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
     ControllerHierarchyViewController *nextVC = [[ControllerHierarchyViewController alloc] init];
     nextVC.pageIndex = 0;
     [self.navigationController pushViewController:nextVC animated:YES];
+}
+
+- (void)notification {
+    NotificationViewController *notificationVC = [[NotificationViewController alloc] init];
+    [self.navigationController pushViewController:notificationVC animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
