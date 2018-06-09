@@ -15,6 +15,7 @@
 #import "DeviceInfoViewController.h"
 #import "ControllerHierarchyViewController.h"
 #import "NotificationViewController.h"
+#import "ConsoleViewController.h"
 
 static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 
@@ -51,6 +52,10 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
                             @"action" : NSStringFromSelector(@selector(doIO)),
                             },
                         @{
+                            @"title" : @"Console",
+                            @"action" : NSStringFromSelector(@selector(console)),
+                            },
+                        @{
                             @"title" : @"Web Console",
                             @"action" : NSStringFromSelector(@selector(webConsole)),
                             },
@@ -70,6 +75,8 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
                             @"title" : @"Notification",
                             @"action" : NSStringFromSelector(@selector(notification)),
                             },
+                        
+                        
                        ];
 }
 
@@ -89,6 +96,11 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 - (void)doIO
 {
     IOViewController * vc = [[IOViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)console {
+    ConsoleViewController *vc = [[ConsoleViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

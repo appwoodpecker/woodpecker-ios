@@ -2,7 +2,7 @@
 //  ADHService.h
 //  AppDevelopHelper
 //
-//  Created by 张小刚 on 2017/11/4.
+//  Created by woodpecker on 2017/11/4.
 //  Copyright © 2017年 lifebetter. All rights reserved.
 //
 
@@ -19,8 +19,8 @@
  action list
 
  return @{
-    "actionName1" : selector1 string,
-    "actionName2" : selector2 string,
+    @"actionName1" : selector1 string,
+    @"actionName2" : selector2 string,
  };
  */
 + (NSDictionary<NSString*,NSString *> *)actionList;

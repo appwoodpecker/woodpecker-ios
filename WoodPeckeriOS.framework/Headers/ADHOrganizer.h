@@ -2,16 +2,16 @@
 //  AppOrganizer.h
 //  ADHClient
 //
-//  Created by 张小刚 on 2017/11/5.
+//  Created by woodpecker on 2017/11/5.
 //  Copyright © 2017年 lifebetter. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@class ADHService;
-@class ADHAppConnector;
+
 extern NSString * const ADHOrgnizerWindowDidVisible;
+extern NSString * const ADHOrganizerWorkStatusUpdate;
 
 @interface ADHOrganizer : NSObject
 
@@ -32,11 +32,5 @@ extern NSString * const ADHOrgnizerWindowDidVisible;
  */
 - (BOOL)isWorking;
 
-
-//private do not call
-- (ADHAppConnector *) connector;
-- (void)clearAutoConnectTry;
-- (NSBundle *)adhBundle;
-- (UINib *)nibWithName: (NSString *)nibName;
 
 @end

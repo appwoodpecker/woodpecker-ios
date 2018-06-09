@@ -2,7 +2,7 @@
 //  WoodPeckeriOS.h
 //  WoodPeckeriOS
 //
-//  Created by 张小刚 on 2018/1/7.
+//  Created by woodpecker on 2018/1/7.
 //  Copyright © 2018年 lifebetter. All rights reserved.
 //
 
@@ -19,6 +19,5 @@ FOUNDATION_EXPORT const unsigned char WoodPeckeriOSVersionString[];
 #import <WoodPeckeriOS/ADHOrganizer.h>
 #import <WoodPeckeriOS/ADHRequest.h>
 #import <WoodPeckeriOS/ADHService.h>
-
 #import <WoodPeckeriOS/ADHLogger.h>
 

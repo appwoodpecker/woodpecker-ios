@@ -11,6 +11,8 @@
 		1F3A946520C570C7008AE09A /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A946320C570C7008AE09A /* NotificationViewController.xib */; };
 		1F40B7FC204ABA3F00FF41B8 /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */; };
 		1F40B7FD204ABA3F00FF41B8 /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F46EBE120CBEA980037445F /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F46EBDF20CBEA980037445F /* ConsoleViewController.m */; };
+		1F46EBE220CBEA980037445F /* ConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F46EBE020CBEA980037445F /* ConsoleViewController.xib */; };
 		1F9DC462200F83C700DFC64E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC461200F83C700DFC64E /* AppDelegate.m */; };
 		1F9DC46A200F83C700DFC64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC469200F83C700DFC64E /* Assets.xcassets */; };
 		1F9DC46D200F83C700DFC64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC46B200F83C700DFC64E /* LaunchScreen.storyboard */; };
@@ -55,6 +57,9 @@
 		1F3A946120C570C7008AE09A /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		1F3A946220C570C7008AE09A /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		1F3A946320C570C7008AE09A /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		1F46EBDE20CBEA980037445F /* ConsoleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleViewController.h; sourceTree = "<group>"; };
+		1F46EBDF20CBEA980037445F /* ConsoleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
+		1F46EBE020CBEA980037445F /* ConsoleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsoleViewController.xib; sourceTree = "<group>"; };
 		1F8422C520146CE9003BFF5A /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WoodPeckeriOS.framework; path = ../../WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		1F9DC45D200F83C700DFC64E /* WoodPeckerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodPeckerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9DC460200F83C700DFC64E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +122,16 @@
 			path = Notification;
 			sourceTree = "<group>";
 		};
+		1F46EBDD20CBEA880037445F /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				1F46EBDE20CBEA980037445F /* ConsoleViewController.h */,
+				1F46EBDF20CBEA980037445F /* ConsoleViewController.m */,
+				1F46EBE020CBEA980037445F /* ConsoleViewController.xib */,
+			);
+			path = Console;
+			sourceTree = "<group>";
+		};
 		1F9DC454200F83C700DFC64E = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +168,7 @@
 		1F9DC476200F842A00DFC64E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1F46EBDD20CBEA880037445F /* Console */,
 				1F3A946020C5709E008AE09A /* Notification */,
 				1FB43ABB20ADCA7600BD5B85 /* Controller */,
 				1FE5C591205CC350000EC631 /* Device */,
@@ -309,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F46EBE220CBEA980037445F /* ConsoleViewController.xib in Resources */,
 				1FB43AC020ADCA9E00BD5B85 /* ControllerHierarchyViewController.xib in Resources */,
 				1F9DC485200F8BBE00DFC64E /* SandBoxViewController.xib in Resources */,
 				1F9DC47C200F846100DFC64E /* IndexViewController.xib in Resources */,
@@ -340,6 +357,7 @@
 				1F3A946420C570C7008AE09A /* NotificationViewController.m in Sources */,
 				1F9DC49A200F99C300DFC64E /* IOViewController.m in Sources */,
 				1F9DC4A3200F9D3F00DFC64E /* WebContentViewController.m in Sources */,
+				1F46EBE120CBEA980037445F /* ConsoleViewController.m in Sources */,
 				1F9DC4A7200F9D4800DFC64E /* WebConsoleViewController.m in Sources */,
 				1FB43ABF20ADCA9E00BD5B85 /* ControllerHierarchyViewController.m in Sources */,
 				1F9DC462200F83C700DFC64E /* AppDelegate.m in Sources */,

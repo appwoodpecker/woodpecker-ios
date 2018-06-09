@@ -6,19 +6,19 @@
 	<dict>
 		<key>ADHConnectViewController.nib/objects-11.0+.nib</key>
 		<data>
-		jJdwtmfKdGA33C7pK25x06rejBk=
+		xMj8+vs8DTf0uyVH+rS/kQHTbRY=
 		</data>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<data>
-		VaU+SHYchAzyh+QhLBnTT0AuNAQ=
+		F/wnviqnHbnQfDwz4p6wW8IG2wk=
 		</data>
 		<key>ADHManualConnectViewController.nib</key>
 		<data>
-		nQ/mN7BM/h/H9G9hLR0Am5XeChk=
+		cOsZkugr/8eb5PFrXlCl9eYrbXw=
 		</data>
 		<key>ADHRemoteServiceCell.nib</key>
 		<data>
-		w7aEMY+jjB3Osbe3ZdRMD/LYRf4=
+		Dpu3tcASgK/6bNBfrVj1ANbdGQw=
 		</data>
 		<key>Headers/ADHLogger.h</key>
 		<data>
@@ -26,23 +26,23 @@
 		</data>
 		<key>Headers/ADHOrganizer.h</key>
 		<data>
-		+YqY0ab1l0+YTZIQoPPpPfMzQ7U=
+		u1FGg8TFKzN/Ct8G5rI74SOKWFk=
 		</data>
 		<key>Headers/ADHRequest.h</key>
 		<data>
-		S378Ej4/5QJeOVCfW5A/fo+Lqwo=
+		ImkUqO+N052g2ypMPoBtobY4s6g=
 		</data>
 		<key>Headers/ADHService.h</key>
 		<data>
-		uNq9wzMlmWmAmI5c3qLPgAqTTgA=
+		6SENU3Ad9+OcQ0slfAzrqpYzx9s=
 		</data>
 		<key>Headers/WoodPeckeriOS.h</key>
 		<data>
-		K/V6UmyaAC794/gtIgRyCjPN70E=
+		725LXPFZloMNOizfCL/tkXqCgiQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wLZpGi1VPLWPaVPXDunf/S9ZA58=
+		Y0qjFf+z75fmvXZU8vM5TVXLB04=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,44 +59,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jJdwtmfKdGA33C7pK25x06rejBk=
+			xMj8+vs8DTf0uyVH+rS/kQHTbRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			kJQfZWnf140h8MPeTznchZofuC2PFKHGy1kvJ9jAE3M=
+			hCtd192OvFJO32sF5cvJm52V1Q16IIVFB8aGk42puko=
 			</data>
 		</dict>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VaU+SHYchAzyh+QhLBnTT0AuNAQ=
+			F/wnviqnHbnQfDwz4p6wW8IG2wk=
 			</data>
 			<key>hash2</key>
 			<data>
-			LzT83ZKu5Dmde+U+kqh4ui9cTXdoCRL7sJ3WCtaDW3Y=
+			bhuxdE90YXwBJuFzqjC+QK7TfR4Hf2pcfL9TXS69uy4=
 			</data>
 		</dict>
 		<key>ADHManualConnectViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nQ/mN7BM/h/H9G9hLR0Am5XeChk=
+			cOsZkugr/8eb5PFrXlCl9eYrbXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9JIbacOC9WxOZBKA7/E1Uv5ogqmPmadC49vKlHNJVA4=
+			iMd9PVKrEaA/84PHnQWBNrfc5fjI91RdbX4rAcrg3KM=
 			</data>
 		</dict>
 		<key>ADHRemoteServiceCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w7aEMY+jjB3Osbe3ZdRMD/LYRf4=
+			Dpu3tcASgK/6bNBfrVj1ANbdGQw=
 			</data>
 			<key>hash2</key>
 			<data>
-			eiYqT8mPPDtzFcJsw1jH3Cb8113NUWXOIlGjcVggQB8=
+			IMNBHqIPTZQFnCiFUmBAJpo8qpr12IdgLc5e0jQ/3AE=
 			</data>
 		</dict>
 		<key>Headers/ADHLogger.h</key>
@@ -114,44 +114,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+YqY0ab1l0+YTZIQoPPpPfMzQ7U=
+			u1FGg8TFKzN/Ct8G5rI74SOKWFk=
 			</data>
 			<key>hash2</key>
 			<data>
-			EYL5r5UXYqDTuXW4qSV1weHkwkf+wDwMuA5TQyOMqHw=
+			p/4Msae3GZx6pIbgpFtu4EqWrVNBB6WfwLZC22VuXAo=
 			</data>
 		</dict>
 		<key>Headers/ADHRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S378Ej4/5QJeOVCfW5A/fo+Lqwo=
+			ImkUqO+N052g2ypMPoBtobY4s6g=
 			</data>
 			<key>hash2</key>
 			<data>
-			WMe8nkv5e5fjegc4xAUzPM837PCMCnJ/1OXR5/+l3z8=
+			kxMpI4TuI/X4D1lz6txphCFANrdR4pWSFVOT/ORLEqc=
 			</data>
 		</dict>
 		<key>Headers/ADHService.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uNq9wzMlmWmAmI5c3qLPgAqTTgA=
+			6SENU3Ad9+OcQ0slfAzrqpYzx9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			GG5VHC1wE3ayyjdk4qd9bvtIQ83D0mxDcb4OyLYU4FM=
+			9dlef+1QknEeYNfSnzmCv5MRj2e85DI2fA1BGlfdiDE=
 			</data>
 		</dict>
 		<key>Headers/WoodPeckeriOS.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K/V6UmyaAC794/gtIgRyCjPN70E=
+			725LXPFZloMNOizfCL/tkXqCgiQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			StIvB9kNfKHbpkHyKcU7fLXS0YjesKLD5EwuRdZwn8o=
+			u/8B5RVVynf7ouOSIM9W2I1djZC82Xvo0/XS3WDACzk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
