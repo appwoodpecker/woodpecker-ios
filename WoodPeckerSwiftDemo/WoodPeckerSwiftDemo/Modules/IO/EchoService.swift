@@ -2,7 +2,7 @@
 //  EchoService.swift
 //  WoodPeckerSwiftDemo
 //
-//  Created by 张小刚 on 2018/1/21.
+//  Created by xiaogang zhang on 2018/1/21.
 //  Copyright © 2018年 lifebetter. All rights reserved.
 //
 
@@ -19,7 +19,7 @@ class EchoService: ADHService {
     }
     
     @objc func onRequestEcho(request: ADHRequest) {
-        let data = ["response" : "hi, I`m App, What`s up"]
+        let data = ["response" : "Hi, I`m App, what`s up ?"]
         request.finish(withBody: data)
     }
     

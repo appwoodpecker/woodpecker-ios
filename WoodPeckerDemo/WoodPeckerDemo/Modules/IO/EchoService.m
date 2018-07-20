@@ -2,7 +2,7 @@
 //  EchoService.m
 //  WoodPeckerDemo
 //
-//  Created by 张小刚 on 2018/1/17.
+//  Created by xiaogang zhang on 2018/1/17.
 //  Copyright © 2018年 lifebetter. All rights reserved.
 //
 
@@ -10,20 +10,21 @@
 
 @implementation EchoService
 
-+ (NSString *)serviceName
-{
++ (void)load {
+    [[ADHOrganizer sharedOrganizer] registerService:[EchoService class]];
+}
+
++ (NSString *)serviceName {
     return @"adh.EchoService";
 }
 
-+ (NSDictionary<NSString*,NSString *> *)actionList
-{
++ (NSDictionary<NSString*,NSString *> *)actionList {
     return @{
              @"echo" : NSStringFromSelector(@selector(onRequestEcho:)),
              };
 }
 
-- (void)onRequestEcho: (ADHRequest *)request
-{
+- (void)onRequestEcho: (ADHRequest *)request {
     NSDictionary * data = @{
                             @"response" : @"hi, I`m App, What`s up",
                             };

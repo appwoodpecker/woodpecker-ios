@@ -2,7 +2,7 @@
 //  DeviceInfoViewController.m
 //  WoodPeckerDemo
 //
-//  Created by 张小刚 on 2018/3/17.
+//  Created by xiaogang zhang on 2018/3/17.
 //  Copyright © 2018年 lifebetter. All rights reserved.
 //
 
