@@ -103,7 +103,7 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         var data = self.actionList![indexPath.row];
         let action = data["action"]
-        self.perform(action as! Selector)
+        self.perform(action as? Selector)
         tableView.deselectRow(at: indexPath, animated: false)
     }
 

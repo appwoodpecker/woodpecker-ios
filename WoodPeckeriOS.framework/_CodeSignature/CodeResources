@@ -6,19 +6,15 @@
 	<dict>
 		<key>ADHConnectViewController.nib/objects-11.0+.nib</key>
 		<data>
-		+5snlVI+wEqq1ew7LVskWc5Ppq8=
+		XvqiUnzAQxHEhse8/T0Ff4dxeSc=
 		</data>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<data>
-		ZIZ9N5Ki+xM6MVCiMbzRBUpPeNk=
-		</data>
-		<key>ADHManualConnectViewController.nib</key>
-		<data>
-		kENTz5cEKRERZ2bYgNGRpuJry9Y=
+		Vwh7+AzwI64AqRpnvYcwE8V1/H0=
 		</data>
 		<key>ADHRemoteServiceCell.nib</key>
 		<data>
-		MOg151SsLcb2OyBFuaCAMKIyPOA=
+		9BKb1x/fDoReA0hes6U8cIGw0jc=
 		</data>
 		<key>Headers/ADHLogger.h</key>
 		<data>
@@ -26,7 +22,7 @@
 		</data>
 		<key>Headers/ADHOrganizer.h</key>
 		<data>
-		u1FGg8TFKzN/Ct8G5rI74SOKWFk=
+		hTobPJLJqf+UiRkli59pjNiH26Q=
 		</data>
 		<key>Headers/ADHRequest.h</key>
 		<data>
@@ -42,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zzYIMa8D/HWLUD0vWXiq6/A/3yY=
+		o3ljtPrQ0uZiBuXc4sm3JecoHzE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,44 +55,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+5snlVI+wEqq1ew7LVskWc5Ppq8=
+			XvqiUnzAQxHEhse8/T0Ff4dxeSc=
 			</data>
 			<key>hash2</key>
 			<data>
-			qYvWRvMf+vRzqW5VDCSPkoIutczOqpcXx0MC+4lm2QQ=
+			MX2pPeo7MT+LYoREHTqCWIg51GrElE/TvS3cc6owBRA=
 			</data>
 		</dict>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZIZ9N5Ki+xM6MVCiMbzRBUpPeNk=
+			Vwh7+AzwI64AqRpnvYcwE8V1/H0=
 			</data>
 			<key>hash2</key>
 			<data>
-			WBPprUplFJQacMfEDjf/Zar3n+GpekBDN4OSRG2S58w=
-			</data>
-		</dict>
-		<key>ADHManualConnectViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kENTz5cEKRERZ2bYgNGRpuJry9Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			PoezefpZMPMSJUUfTJ2N7dWOIIKpnBACu6smF/pV81A=
+			yno/Xe6wVNkV8ODrsMUPLVES76hKR40dWlsbHAzKyGo=
 			</data>
 		</dict>
 		<key>ADHRemoteServiceCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MOg151SsLcb2OyBFuaCAMKIyPOA=
+			9BKb1x/fDoReA0hes6U8cIGw0jc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sMBV/6HdyRaU7njHimVvipv6r2aByZ8XULWkL++Drwo=
+			BHLL17gizzgwhRimN7aH2UCcts98rmeRWDRzIvdi8z8=
 			</data>
 		</dict>
 		<key>Headers/ADHLogger.h</key>
@@ -114,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u1FGg8TFKzN/Ct8G5rI74SOKWFk=
+			hTobPJLJqf+UiRkli59pjNiH26Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			p/4Msae3GZx6pIbgpFtu4EqWrVNBB6WfwLZC22VuXAo=
+			2jK11gafYDPQlk7wfAMMxBK/ACL//PWf5KeYWF/4duM=
 			</data>
 		</dict>
 		<key>Headers/ADHRequest.h</key>

@@ -10,27 +10,25 @@
 #import <UIKit/UIKit.h>
 
 
-extern NSString * const ADHOrgnizerWindowDidVisible;
-extern NSString * const ADHOrganizerWorkStatusUpdate;
+/**
+ * parameters that specify which mac client you'd like to connect
+ * learn more at http://www.woodpeck.cn/connection.html
+ */
+extern NSString *const kADHHostName;
+extern NSString *const kADHHostAddress;
+extern NSString *const kADHAutoConnectEnabled;
+extern NSString *const kADHShowOnConnectionFailed;
+
 
 @interface ADHOrganizer : NSObject
 
 + (ADHOrganizer *)sharedOrganizer;
 
 /**
- show connection UI
- */
-- (void)showUI;
-
-/**
- plugin support
+ * register your own ADHService
+ * learn more about custom service, please visit http://www.woodpeck.cn/plugin.html
  */
 - (void)registerService: (Class)serviceClazz;
-
-/**
- working well
- */
-- (BOOL)isWorking;
 
 
 @end
