@@ -6,15 +6,15 @@
 	<dict>
 		<key>ADHConnectViewController.nib/objects-11.0+.nib</key>
 		<data>
-		XvqiUnzAQxHEhse8/T0Ff4dxeSc=
+		XTboloP/D5nrMVNMxWymjvbtjUs=
 		</data>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<data>
-		Vwh7+AzwI64AqRpnvYcwE8V1/H0=
+		hmTmwG9Rd2FjCCvQyS2i8o61QF4=
 		</data>
 		<key>ADHRemoteServiceCell.nib</key>
 		<data>
-		9BKb1x/fDoReA0hes6U8cIGw0jc=
+		6KagZFMaVZZhaADBgp4+XW8oDRk=
 		</data>
 		<key>Headers/ADHLogger.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		o3ljtPrQ0uZiBuXc4sm3JecoHzE=
+		raYtFsBa9q9Hnr9gPc+DqLjt3oM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,33 +55,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XvqiUnzAQxHEhse8/T0Ff4dxeSc=
+			XTboloP/D5nrMVNMxWymjvbtjUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			MX2pPeo7MT+LYoREHTqCWIg51GrElE/TvS3cc6owBRA=
+			IwCZDtjrp1mme/jyQJrn6IJzKShhINo63WcDXKJzocg=
 			</data>
 		</dict>
 		<key>ADHConnectViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Vwh7+AzwI64AqRpnvYcwE8V1/H0=
+			hmTmwG9Rd2FjCCvQyS2i8o61QF4=
 			</data>
 			<key>hash2</key>
 			<data>
-			yno/Xe6wVNkV8ODrsMUPLVES76hKR40dWlsbHAzKyGo=
+			SPbC1lD3EUzFujNIY3iAKQglo5U59CGILSPUrrZjZjE=
 			</data>
 		</dict>
 		<key>ADHRemoteServiceCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9BKb1x/fDoReA0hes6U8cIGw0jc=
+			6KagZFMaVZZhaADBgp4+XW8oDRk=
 			</data>
 			<key>hash2</key>
 			<data>
-			BHLL17gizzgwhRimN7aH2UCcts98rmeRWDRzIvdi8z8=
+			/dmSaNXZJe7VeWEUDNK6STc+RAvW897oE12WARgZeYE=
 			</data>
 		</dict>
 		<key>Headers/ADHLogger.h</key>
@@ -164,7 +164,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -195,24 +195,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -248,13 +236,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
