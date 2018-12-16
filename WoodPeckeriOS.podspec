@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage                    = "http://www.woodpeck.cn"
   s.authors                     = { "Woodpecker" => "woodperckerapp@163.com" }
   s.platform                    = :ios, "8.0"
-  s.source                      = { :git => "https://github.com/github-xiaogang/woodpeckeriOS.git", :tag => "#{s.version}" }
+  s.source                      = { :git => "https://github.com/appwoodpecker/woodpecker-ios.git", :tag => "#{s.version}" }
   s.vendored_frameworks         = "WoodPeckeriOS.framework"
   s.license                     = { :type => 'Copyright', :file => 'LICENSE' }
 
