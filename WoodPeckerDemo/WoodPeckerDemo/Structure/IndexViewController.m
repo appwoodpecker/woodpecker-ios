@@ -40,7 +40,7 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 {
     self.actionList = @[
                         @{
-                            @"title" : @"SandBox",
+                            @"title" : @"Sandbox",
                             @"action" : NSStringFromSelector(@selector(sandBox)),
                             },
                         @{

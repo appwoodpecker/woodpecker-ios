@@ -173,7 +173,7 @@
 				1FB43ABB20ADCA7600BD5B85 /* Controller */,
 				1FE5C591205CC350000EC631 /* Device */,
 				1FE5C58B205CC1B9000EC631 /* UserDefaults */,
-				1F9DC47D200F872700DFC64E /* SandBox */,
+				1F9DC47D200F872700DFC64E /* Sandbox */,
 				1F9DC47E200F872C00DFC64E /* Network */,
 				1F9DC47F200F873100DFC64E /* IO */,
 				1F9DC480200F874300DFC64E /* WebConsole */,
@@ -191,14 +191,14 @@
 			path = Structure;
 			sourceTree = "<group>";
 		};
-		1F9DC47D200F872700DFC64E /* SandBox */ = {
+		1F9DC47D200F872700DFC64E /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
 				1F9DC481200F8BBE00DFC64E /* SandBoxViewController.h */,
 				1F9DC482200F8BBE00DFC64E /* SandBoxViewController.m */,
 				1F9DC483200F8BBE00DFC64E /* SandBoxViewController.xib */,
 			);
-			path = SandBox;
+			path = Sandbox;
 			sourceTree = "<group>";
 		};
 		1F9DC47E200F872C00DFC64E /* Network */ = {
@@ -490,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8HG49Q463F;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../",
@@ -513,7 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8HG49Q463F;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../",

@@ -32,7 +32,7 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
     func loadData() {
         self.actionList = [
                 [
-                "title" : "SandBox",
+                "title" : "Sandbox",
                 "action" : #selector(IndexViewController.sandBox)
                 ],
                 [
