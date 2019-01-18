@@ -11,13 +11,12 @@
 
 
 /**
- * parameters that specify which mac client you'd like to connect
+ * parameters that specify which mac client you'd like connect to
  * learn more at http://www.woodpeck.cn/connection.html
  */
 extern NSString *const kADHHostName;
 extern NSString *const kADHHostAddress;
 extern NSString *const kADHAutoConnectEnabled;
-extern NSString *const kADHShowOnConnectionFailed;
 
 
 @interface ADHOrganizer : NSObject
