@@ -1,5 +1,5 @@
 
-![logo](/logo.png)
+![logo](http://www.woodpeck.cn/assets/img/logo.png)
 
 Hi! this is a demo app for **Woodpecker**
 
@@ -12,7 +12,8 @@ It can helps you:
  - view UserDefaults items;
  - view controller hierarchy;
  - debug embedded webview;
+ - more...
 
-[Learn more](http://www.woodpeck.cn)
+Free download at [App Store](https://itunes.apple.com/cn/app/woodpecker/id1333548463?l=en&mt=12)
 
 
