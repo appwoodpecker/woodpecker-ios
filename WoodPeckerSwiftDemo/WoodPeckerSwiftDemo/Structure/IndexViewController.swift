@@ -33,7 +33,7 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
         self.actionList = [
                 [
                 "title" : "Sandbox",
-                "action" : #selector(IndexViewController.sandBox)
+                "action" : #selector(IndexViewController.sandbox)
                 ],
                 [
                 "title" : "Network",
@@ -54,8 +54,8 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
         ]
     }
     
-    @objc func sandBox(){
-        let vc = SandBoxViewController()
+    @objc func sandbox(){
+        let vc = SandboxViewController()
         self.navigationController!.pushViewController(vc, animated: true)
     }
     

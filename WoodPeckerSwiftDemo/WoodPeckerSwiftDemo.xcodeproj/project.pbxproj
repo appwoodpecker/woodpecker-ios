@@ -11,9 +11,9 @@
 		1F842292201340FE003BFF5A /* WebContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F84227E201340FD003BFF5A /* WebContentViewController.xib */; };
 		1F842295201340FE003BFF5A /* WebConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F842281201340FD003BFF5A /* WebConsoleViewController.xib */; };
 		1F842296201340FE003BFF5A /* IOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F842285201340FE003BFF5A /* IOViewController.xib */; };
-		1F84229A201340FE003BFF5A /* SandBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F84228C201340FE003BFF5A /* SandBoxViewController.xib */; };
+		1F84229A201340FE003BFF5A /* SandboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F84228C201340FE003BFF5A /* SandboxViewController.xib */; };
 		1F84229C201340FE003BFF5A /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F842291201340FE003BFF5A /* NetworkViewController.xib */; };
-		1F84229E20134115003BFF5A /* SandBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84229D20134115003BFF5A /* SandBoxViewController.swift */; };
+		1F84229E20134115003BFF5A /* SandboxViewController.temp_caseinsensitive_rename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84229D20134115003BFF5A /* SandboxViewController.temp_caseinsensitive_rename.swift */; };
 		1F8422A02013468D003BFF5A /* IndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F84229F2013468D003BFF5A /* IndexViewController.xib */; };
 		1F8422A2201353E1003BFF5A /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8422A1201353E1003BFF5A /* images.xcassets */; };
 		1F8422A420143E28003BFF5A /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422A320143E28003BFF5A /* NetworkViewController.swift */; };
@@ -47,9 +47,9 @@
 		1F84227E201340FD003BFF5A /* WebContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebContentViewController.xib; sourceTree = "<group>"; };
 		1F842281201340FD003BFF5A /* WebConsoleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebConsoleViewController.xib; sourceTree = "<group>"; };
 		1F842285201340FE003BFF5A /* IOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOViewController.xib; sourceTree = "<group>"; };
-		1F84228C201340FE003BFF5A /* SandBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SandBoxViewController.xib; sourceTree = "<group>"; };
+		1F84228C201340FE003BFF5A /* SandboxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SandboxViewController.xib; sourceTree = "<group>"; };
 		1F842291201340FE003BFF5A /* NetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
-		1F84229D20134115003BFF5A /* SandBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxViewController.swift; sourceTree = "<group>"; };
+		1F84229D20134115003BFF5A /* SandboxViewController.temp_caseinsensitive_rename.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxViewController.temp_caseinsensitive_rename.swift; sourceTree = "<group>"; };
 		1F84229F2013468D003BFF5A /* IndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndexViewController.xib; sourceTree = "<group>"; };
 		1F8422A1201353E1003BFF5A /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		1F8422A320143E28003BFF5A /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 		1F84228A201340FE003BFF5A /* SandBox */ = {
 			isa = PBXGroup;
 			children = (
-				1F84229D20134115003BFF5A /* SandBoxViewController.swift */,
-				1F84228C201340FE003BFF5A /* SandBoxViewController.xib */,
+				1F84229D20134115003BFF5A /* SandboxViewController.temp_caseinsensitive_rename.swift */,
+				1F84228C201340FE003BFF5A /* SandboxViewController.xib */,
 			);
 			path = SandBox;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F84229A201340FE003BFF5A /* SandBoxViewController.xib in Resources */,
+				1F84229A201340FE003BFF5A /* SandboxViewController.xib in Resources */,
 				1F842292201340FE003BFF5A /* WebContentViewController.xib in Resources */,
 				1F842295201340FE003BFF5A /* WebConsoleViewController.xib in Resources */,
 				1F8422A2201353E1003BFF5A /* images.xcassets in Resources */,
@@ -250,7 +250,7 @@
 			files = (
 				1F8422B020145079003BFF5A /* EchoService.swift in Sources */,
 				1F8422BC20145FC7003BFF5A /* WebContentViewController.swift in Sources */,
-				1F84229E20134115003BFF5A /* SandBoxViewController.swift in Sources */,
+				1F84229E20134115003BFF5A /* SandboxViewController.temp_caseinsensitive_rename.swift in Sources */,
 				1F8422A420143E28003BFF5A /* NetworkViewController.swift in Sources */,
 				1F8422A620144831003BFF5A /* IOViewController.swift in Sources */,
 				1F90227520131F84007335EA /* AppDelegate.swift in Sources */,

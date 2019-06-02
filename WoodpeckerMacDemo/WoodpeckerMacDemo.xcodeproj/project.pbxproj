@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F28FB5822A293E700C2CF25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28FB5722A293E700C2CF25 /* AppDelegate.swift */; };
+		1F28FB5A22A293E900C2CF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB5922A293E900C2CF25 /* Assets.xcassets */; };
+		1F28FB5D22A293E900C2CF25 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB5B22A293E900C2CF25 /* MainMenu.xib */; };
+		1F28FB6922A2ABAE00C2CF25 /* SandboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28FB6722A2ABAE00C2CF25 /* SandboxViewController.swift */; };
+		1F28FB6A22A2ABAE00C2CF25 /* SandboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB6822A2ABAE00C2CF25 /* SandboxViewController.xib */; };
+		1F28FB6E22A2B21000C2CF25 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28FB6C22A2B21000C2CF25 /* NetworkViewController.swift */; };
+		1F28FB6F22A2B21000C2CF25 /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB6D22A2B21000C2CF25 /* NetworkViewController.xib */; };
+		1F28FB7322A2B31F00C2CF25 /* UserDefaultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28FB7122A2B31F00C2CF25 /* UserDefaultsViewController.swift */; };
+		1F28FB7422A2B31F00C2CF25 /* UserDefaultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB7222A2B31F00C2CF25 /* UserDefaultsViewController.xib */; };
+		1F28FB7822A2B47400C2CF25 /* BundleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28FB7622A2B47400C2CF25 /* BundleViewController.swift */; };
+		1F28FB7922A2B47400C2CF25 /* BundleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB7722A2B47400C2CF25 /* BundleViewController.xib */; };
+		1F28FB7D22A2B50B00C2CF25 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28FB7B22A2B50B00C2CF25 /* NotificationViewController.swift */; };
+		1F28FB7E22A2B50B00C2CF25 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB7C22A2B50B00C2CF25 /* NotificationViewController.xib */; };
+		1F28FB8222A2B94200C2CF25 /* LocalizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28FB8022A2B94200C2CF25 /* LocalizationViewController.swift */; };
+		1F28FB8322A2B94200C2CF25 /* LocalizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB8122A2B94200C2CF25 /* LocalizationViewController.xib */; };
+		1F28FB8E22A2C1C800C2CF25 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F28FB9022A2C1C800C2CF25 /* Localizable.strings */; };
+		1F28FBB622A3F9CC00C2CF25 /* WoodpeckerMacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28FBB522A3F9CC00C2CF25 /* WoodpeckerMacOS.framework */; };
+		1F28FBB722A3F9CC00C2CF25 /* WoodpeckerMacOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28FBB522A3F9CC00C2CF25 /* WoodpeckerMacOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F28FBB422A3F99700C2CF25 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F28FBB722A3F9CC00C2CF25 /* WoodpeckerMacOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F28FB5422A293E700C2CF25 /* WoodpeckerMacDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodpeckerMacDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F28FB5722A293E700C2CF25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F28FB5922A293E900C2CF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F28FB5E22A293E900C2CF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F28FB5F22A293E900C2CF25 /* WoodpeckerMacDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WoodpeckerMacDemo.entitlements; sourceTree = "<group>"; };
+		1F28FB6722A2ABAE00C2CF25 /* SandboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxViewController.swift; sourceTree = "<group>"; };
+		1F28FB6822A2ABAE00C2CF25 /* SandboxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SandboxViewController.xib; sourceTree = "<group>"; };
+		1F28FB6C22A2B21000C2CF25 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		1F28FB6D22A2B21000C2CF25 /* NetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
+		1F28FB7122A2B31F00C2CF25 /* UserDefaultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewController.swift; sourceTree = "<group>"; };
+		1F28FB7222A2B31F00C2CF25 /* UserDefaultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDefaultsViewController.xib; sourceTree = "<group>"; };
+		1F28FB7622A2B47400C2CF25 /* BundleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleViewController.swift; sourceTree = "<group>"; };
+		1F28FB7722A2B47400C2CF25 /* BundleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BundleViewController.xib; sourceTree = "<group>"; };
+		1F28FB7B22A2B50B00C2CF25 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		1F28FB7C22A2B50B00C2CF25 /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		1F28FB8022A2B94200C2CF25 /* LocalizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationViewController.swift; sourceTree = "<group>"; };
+		1F28FB8122A2B94200C2CF25 /* LocalizationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocalizationViewController.xib; sourceTree = "<group>"; };
+		1F28FB8F22A2C1C800C2CF25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F28FB9122A2C1C900C2CF25 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1F28FB9422A2C22F00C2CF25 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F28FB9622A2C29A00C2CF25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F28FB9722A2C2AC00C2CF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F28FB9D22A2C4FA00C2CF25 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		1F28FBB522A3F9CC00C2CF25 /* WoodpeckerMacOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WoodpeckerMacOS.framework; path = ../WoodpeckerMacOS.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F28FB5122A293E700C2CF25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F28FBB622A3F9CC00C2CF25 /* WoodpeckerMacOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F28FB4B22A293E700C2CF25 = {
+			isa = PBXGroup;
+			children = (
+				1F28FBB522A3F9CC00C2CF25 /* WoodpeckerMacOS.framework */,
+				1F28FB5622A293E700C2CF25 /* WoodpeckerMacDemo */,
+				1F28FB5522A293E700C2CF25 /* Products */,
+				1F28FB9C22A2C4F900C2CF25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F28FB5522A293E700C2CF25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB5422A293E700C2CF25 /* WoodpeckerMacDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F28FB5622A293E700C2CF25 /* WoodpeckerMacDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB6522A2AA1B00C2CF25 /* Pages */,
+				1F28FB5722A293E700C2CF25 /* AppDelegate.swift */,
+				1F28FB5922A293E900C2CF25 /* Assets.xcassets */,
+				1F28FB5B22A293E900C2CF25 /* MainMenu.xib */,
+				1F28FB5E22A293E900C2CF25 /* Info.plist */,
+				1F28FB9022A2C1C800C2CF25 /* Localizable.strings */,
+				1F28FB5F22A293E900C2CF25 /* WoodpeckerMacDemo.entitlements */,
+			);
+			path = WoodpeckerMacDemo;
+			sourceTree = "<group>";
+		};
+		1F28FB6522A2AA1B00C2CF25 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB6622A2AA2000C2CF25 /* Sandbox */,
+				1F28FB7022A2B2F900C2CF25 /* UserDefaults */,
+				1F28FB6B22A2B20000C2CF25 /* Network */,
+				1F28FB7522A2B46700C2CF25 /* Bundle */,
+				1F28FB7A22A2B4F900C2CF25 /* Notification */,
+				1F28FB7F22A2B93400C2CF25 /* Localization */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		1F28FB6622A2AA2000C2CF25 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB6722A2ABAE00C2CF25 /* SandboxViewController.swift */,
+				1F28FB6822A2ABAE00C2CF25 /* SandboxViewController.xib */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		1F28FB6B22A2B20000C2CF25 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB6C22A2B21000C2CF25 /* NetworkViewController.swift */,
+				1F28FB6D22A2B21000C2CF25 /* NetworkViewController.xib */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		1F28FB7022A2B2F900C2CF25 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB7122A2B31F00C2CF25 /* UserDefaultsViewController.swift */,
+				1F28FB7222A2B31F00C2CF25 /* UserDefaultsViewController.xib */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		1F28FB7522A2B46700C2CF25 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB7622A2B47400C2CF25 /* BundleViewController.swift */,
+				1F28FB7722A2B47400C2CF25 /* BundleViewController.xib */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		1F28FB7A22A2B4F900C2CF25 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB7B22A2B50B00C2CF25 /* NotificationViewController.swift */,
+				1F28FB7C22A2B50B00C2CF25 /* NotificationViewController.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		1F28FB7F22A2B93400C2CF25 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB8022A2B94200C2CF25 /* LocalizationViewController.swift */,
+				1F28FB8122A2B94200C2CF25 /* LocalizationViewController.xib */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		1F28FB9C22A2C4F900C2CF25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F28FB9D22A2C4FA00C2CF25 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F28FB5322A293E700C2CF25 /* WoodpeckerMacDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F28FB6222A293E900C2CF25 /* Build configuration list for PBXNativeTarget "WoodpeckerMacDemo" */;
+			buildPhases = (
+				1F28FB5022A293E700C2CF25 /* Sources */,
+				1F28FB5122A293E700C2CF25 /* Frameworks */,
+				1F28FB5222A293E700C2CF25 /* Resources */,
+				1F28FBB422A3F99700C2CF25 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoodpeckerMacDemo;
+			productName = WoodpeckerMacDemo;
+			productReference = 1F28FB5422A293E700C2CF25 /* WoodpeckerMacDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F28FB4C22A293E700C2CF25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "LIFE BETTER";
+				TargetAttributes = {
+					1F28FB5322A293E700C2CF25 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1F28FB4F22A293E700C2CF25 /* Build configuration list for PBXProject "WoodpeckerMacDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				fr,
+			);
+			mainGroup = 1F28FB4B22A293E700C2CF25;
+			productRefGroup = 1F28FB5522A293E700C2CF25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F28FB5322A293E700C2CF25 /* WoodpeckerMacDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F28FB5222A293E700C2CF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F28FB6A22A2ABAE00C2CF25 /* SandboxViewController.xib in Resources */,
+				1F28FB5A22A293E900C2CF25 /* Assets.xcassets in Resources */,
+				1F28FB7422A2B31F00C2CF25 /* UserDefaultsViewController.xib in Resources */,
+				1F28FB5D22A293E900C2CF25 /* MainMenu.xib in Resources */,
+				1F28FB8E22A2C1C800C2CF25 /* Localizable.strings in Resources */,
+				1F28FB7922A2B47400C2CF25 /* BundleViewController.xib in Resources */,
+				1F28FB6F22A2B21000C2CF25 /* NetworkViewController.xib in Resources */,
+				1F28FB7E22A2B50B00C2CF25 /* NotificationViewController.xib in Resources */,
+				1F28FB8322A2B94200C2CF25 /* LocalizationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F28FB5022A293E700C2CF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F28FB6922A2ABAE00C2CF25 /* SandboxViewController.swift in Sources */,
+				1F28FB7822A2B47400C2CF25 /* BundleViewController.swift in Sources */,
+				1F28FB7D22A2B50B00C2CF25 /* NotificationViewController.swift in Sources */,
+				1F28FB6E22A2B21000C2CF25 /* NetworkViewController.swift in Sources */,
+				1F28FB7322A2B31F00C2CF25 /* UserDefaultsViewController.swift in Sources */,
+				1F28FB8222A2B94200C2CF25 /* LocalizationViewController.swift in Sources */,
+				1F28FB5822A293E700C2CF25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F28FB5B22A293E900C2CF25 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F28FB9622A2C29A00C2CF25 /* en */,
+				1F28FB9722A2C2AC00C2CF25 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1F28FB9022A2C1C800C2CF25 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F28FB8F22A2C1C800C2CF25 /* en */,
+				1F28FB9122A2C1C900C2CF25 /* zh-Hans */,
+				1F28FB9422A2C22F00C2CF25 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F28FB6022A293E900C2CF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F28FB6122A293E900C2CF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1F28FB6322A293E900C2CF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WoodpeckerMacDemo/WoodpeckerMacDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8HG49Q463F;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
+				INFOPLIST_FILE = WoodpeckerMacDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = lifebetter.woodpecker.macdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		1F28FB6422A293E900C2CF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WoodpeckerMacDemo/WoodpeckerMacDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8HG49Q463F;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
+				INFOPLIST_FILE = WoodpeckerMacDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = lifebetter.woodpecker.macdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F28FB4F22A293E700C2CF25 /* Build configuration list for PBXProject "WoodpeckerMacDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F28FB6022A293E900C2CF25 /* Debug */,
+				1F28FB6122A293E900C2CF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F28FB6222A293E900C2CF25 /* Build configuration list for PBXNativeTarget "WoodpeckerMacDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F28FB6322A293E900C2CF25 /* Debug */,
+				1F28FB6422A293E900C2CF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F28FB4C22A293E700C2CF25 /* Project object */;
+}

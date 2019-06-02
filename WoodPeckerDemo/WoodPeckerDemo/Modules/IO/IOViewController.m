@@ -23,7 +23,7 @@
 - (IBAction)logButtonPressed:(id)sender {
     NSString * text = @"A channel between mac and your app, you can transfer data, call service in you app, or log message to mac client,  try log something, or you create a custom ADHService";
     // log to mac
-    adhLog(@"%@",text);
+    [[ADHLogger sharedLogger] logText:text];
 }
 
 - (void)didReceiveMemoryWarning {

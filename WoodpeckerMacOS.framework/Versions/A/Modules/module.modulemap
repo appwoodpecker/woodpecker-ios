@@ -1,0 +1,6 @@
+framework module WoodpeckerMacOS {
+  umbrella header "WoodpeckerMacOS.h"
+
+  export *
+  module * { export * }
+}

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SandBoxViewController: UIViewController {
+class SandboxViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
