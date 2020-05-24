@@ -10,7 +10,6 @@
 #import "SandBoxViewController.h"
 #import "NetworkViewController.h"
 #import "IOViewController.h"
-#import "WebConsoleViewController.h"
 #import "UserDefaultsViewController.h"
 #import "DeviceInfoViewController.h"
 #import "ControllerHierarchyViewController.h"
@@ -56,10 +55,6 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
                             @"action" : NSStringFromSelector(@selector(console)),
                             },
                         @{
-                            @"title" : @"Web Console",
-                            @"action" : NSStringFromSelector(@selector(webConsole)),
-                            },
-                        @{
                             @"title" : @"UserDefaults",
                             @"action" : NSStringFromSelector(@selector(userDefaults)),
                             },
@@ -101,12 +96,6 @@ static NSString * const kIndexCellIdentifier = @"kIndexCellIdentifier";
 
 - (void)console {
     ConsoleViewController *vc = [[ConsoleViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
-- (void)webConsole
-{
-    WebConsoleViewController * vc = [[WebConsoleViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

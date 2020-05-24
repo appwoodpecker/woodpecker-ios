@@ -1,13 +1,6 @@
-
-function adhPageInit() {
-  if(window.originConsole) {
-    return;
-  }
-  window.originConsole = {};
-}
-
-adhPageInit();
-
+/**
+* mock window's console methods(log,info,warn,debug,error) and window.onerror
+*/
 
 function mockedMethodList () {
     const methodList = ['log', 'info', 'warn', 'debug', 'error'];
@@ -16,14 +9,17 @@ function mockedMethodList () {
 
 //mock console methods
 function mockConsole() {
+  if(window.adhOriginConsole) {
+    return;
+  }
+  window.adhOriginConsole = {};
   var methodList = mockedMethodList();
-  window.console = {};
   if(!window.console) {
     window.console = {};
   }else {
     //save origin method
     methodList.map(function (method) {
-      window.originConsole[method] = window.console[method];
+      window.adhOriginConsole[method] = window.console[method];
     });
   }
 
@@ -38,14 +34,17 @@ function mockConsole() {
 }
 
 function mockWindowError() {
+  if(window.adhOriginOnError) {
+     return
+  }
   if(window.onerror) {
-      window.originOnError = window.onerror;
+      window.adhOriginOnError = window.onerror;
   }
   window.onerror = printError;
 }
 
 function restoreWindowError() {
-  window.onerror = window.originOnError;
+  window.onerror = window.adhOriginOnError;
 }
 
 /** 
@@ -53,9 +52,7 @@ function restoreWindowError() {
  * @param {String} scriptURI
  * @param {Long}  lineNumber
  * @param {Long}  columnNumber
- * @param {Object} errorObj 
-
- * @note WKWebView not work well
+ * @param {Object} errorObj
  */
 function printError(errorMessage, scriptURI, lineNumber,columnNumber) { 
   var content = '';
@@ -70,14 +67,13 @@ function printError(errorMessage, scriptURI, lineNumber,columnNumber) {
 function restoreConsole() {
   var methodList = mockedMethodList();
   methodList.map(function (method) {
-    window.console[method] = window.originConsole[method];
+    window.console[method] = window.adhOriginConsole[method];
   });
 }
 
 //mocked log
 function printLog(item) {
-  var logType = item['logType'];
-
+  var logType = item.logType;
   let logs = item.logs || [];
   if (!logs.length) {
     return;
@@ -85,7 +81,11 @@ function printLog(item) {
   var content = '';
   for (let i = 0; i < logs.length; i++) {
       var value = logs[i];
-      if(typeof(value) == 'object'){
+      if (typeof(value) == "undefined") {
+        result = "undefined";
+      }else if (!value && value!=0) {
+        result = "null";
+      }else if(typeof(value) == 'object'){
         if(logs.length == 1) {
           result = JSON.stringify(value,null,4);
         }else {
@@ -112,11 +112,12 @@ function printLog(item) {
   }
 }
 
+function adhMock() {
+  mockConsole();
+  mockWindowError();
+}
 
-mockConsole();
-mockWindowError();
-
-
+adhMock();
 
 
 

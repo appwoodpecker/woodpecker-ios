@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1F84227920133FD4003BFF5A /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84227820133FD4003BFF5A /* IndexViewController.swift */; };
-		1F842292201340FE003BFF5A /* WebContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F84227E201340FD003BFF5A /* WebContentViewController.xib */; };
-		1F842295201340FE003BFF5A /* WebConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F842281201340FD003BFF5A /* WebConsoleViewController.xib */; };
 		1F842296201340FE003BFF5A /* IOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F842285201340FE003BFF5A /* IOViewController.xib */; };
 		1F84229A201340FE003BFF5A /* SandboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F84228C201340FE003BFF5A /* SandboxViewController.xib */; };
 		1F84229C201340FE003BFF5A /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F842291201340FE003BFF5A /* NetworkViewController.xib */; };
@@ -19,8 +17,6 @@
 		1F8422A420143E28003BFF5A /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422A320143E28003BFF5A /* NetworkViewController.swift */; };
 		1F8422A620144831003BFF5A /* IOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422A520144831003BFF5A /* IOViewController.swift */; };
 		1F8422B020145079003BFF5A /* EchoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422AF20145079003BFF5A /* EchoService.swift */; };
-		1F8422BA20145F61003BFF5A /* WebConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422B920145F61003BFF5A /* WebConsoleViewController.swift */; };
-		1F8422BC20145FC7003BFF5A /* WebContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422BB20145FC7003BFF5A /* WebContentViewController.swift */; };
 		1F8422C220146BFA003BFF5A /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */; };
 		1F8422C420146C03003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F90227520131F84007335EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90227420131F84007335EA /* AppDelegate.swift */; };
@@ -44,8 +40,6 @@
 
 /* Begin PBXFileReference section */
 		1F84227820133FD4003BFF5A /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
-		1F84227E201340FD003BFF5A /* WebContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebContentViewController.xib; sourceTree = "<group>"; };
-		1F842281201340FD003BFF5A /* WebConsoleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebConsoleViewController.xib; sourceTree = "<group>"; };
 		1F842285201340FE003BFF5A /* IOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOViewController.xib; sourceTree = "<group>"; };
 		1F84228C201340FE003BFF5A /* SandboxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SandboxViewController.xib; sourceTree = "<group>"; };
 		1F842291201340FE003BFF5A /* NetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
@@ -56,8 +50,6 @@
 		1F8422A520144831003BFF5A /* IOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOViewController.swift; sourceTree = "<group>"; };
 		1F8422A820144B9C003BFF5A /* WoodPeckerSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WoodPeckerSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		1F8422AF20145079003BFF5A /* EchoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoService.swift; sourceTree = "<group>"; };
-		1F8422B920145F61003BFF5A /* WebConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConsoleViewController.swift; sourceTree = "<group>"; };
-		1F8422BB20145FC7003BFF5A /* WebContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentViewController.swift; sourceTree = "<group>"; };
 		1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WoodPeckeriOS.framework; path = ../../WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		1F90227120131F84007335EA /* WoodPeckerSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodPeckerSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F90227420131F84007335EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,20 +85,8 @@
 				1F84228A201340FE003BFF5A /* SandBox */,
 				1F84228E201340FE003BFF5A /* Network */,
 				1F842284201340FE003BFF5A /* IO */,
-				1F84227D201340FD003BFF5A /* WebConsole */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		1F84227D201340FD003BFF5A /* WebConsole */ = {
-			isa = PBXGroup;
-			children = (
-				1F8422B920145F61003BFF5A /* WebConsoleViewController.swift */,
-				1F842281201340FD003BFF5A /* WebConsoleViewController.xib */,
-				1F8422BB20145FC7003BFF5A /* WebContentViewController.swift */,
-				1F84227E201340FD003BFF5A /* WebContentViewController.xib */,
-			);
-			path = WebConsole;
 			sourceTree = "<group>";
 		};
 		1F842284201340FE003BFF5A /* IO */ = {
@@ -230,8 +210,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F84229A201340FE003BFF5A /* SandboxViewController.xib in Resources */,
-				1F842292201340FE003BFF5A /* WebContentViewController.xib in Resources */,
-				1F842295201340FE003BFF5A /* WebConsoleViewController.xib in Resources */,
 				1F8422A2201353E1003BFF5A /* images.xcassets in Resources */,
 				1F84229C201340FE003BFF5A /* NetworkViewController.xib in Resources */,
 				1F90227F20131F84007335EA /* LaunchScreen.storyboard in Resources */,
@@ -249,13 +227,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8422B020145079003BFF5A /* EchoService.swift in Sources */,
-				1F8422BC20145FC7003BFF5A /* WebContentViewController.swift in Sources */,
 				1F84229E20134115003BFF5A /* SandboxViewController.temp_caseinsensitive_rename.swift in Sources */,
 				1F8422A420143E28003BFF5A /* NetworkViewController.swift in Sources */,
 				1F8422A620144831003BFF5A /* IOViewController.swift in Sources */,
 				1F90227520131F84007335EA /* AppDelegate.swift in Sources */,
 				1F84227920133FD4003BFF5A /* IndexViewController.swift in Sources */,
-				1F8422BA20145F61003BFF5A /* WebConsoleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

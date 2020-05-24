@@ -44,10 +44,6 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
                 "action" : #selector(IndexViewController.doIO)
                 ],
                 [
-                "title" : "Web Console",
-                "action" : #selector(IndexViewController.webConsole)
-                ],
-                [
                     "title" : "More tools",
                     "action" : #selector(IndexViewController.more)
                 ]
@@ -69,11 +65,6 @@ class IndexViewController: UIViewController,UITableViewDelegate, UITableViewData
     @objc func doIO(){
         let vc = IOViewController()
         self.navigationController!.pushViewController(vc, animated:true)
-    }
-    
-    @objc func webConsole(){
-        let vc = WebConsoleViewController()
-        self.navigationController!.pushViewController(vc,animated:true)
     }
     
     @objc func more(){
