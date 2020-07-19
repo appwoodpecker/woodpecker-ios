@@ -15,5 +15,5 @@ It can helps you:
  - more...
 
 Free download at [App Store](https://itunes.apple.com/cn/app/woodpecker/id1333548463?l=en&mt=12)
-and talk with us at [Telegram](https://t.me/appwoodpecker)
+and talk with us at [Telegram](https://t.me/appwoodpecker) or [QQ(303015262) ](https://jq.qq.com/?_wv=1027&k=QXuhxDs0)
 
