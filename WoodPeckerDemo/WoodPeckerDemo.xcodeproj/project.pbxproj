@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F06B75A21736E02000CAD80 /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F06B756217355E8000CAD80 /* WoodPeckeriOS.framework */; };
-		1F06B75B21736E02000CAD80 /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F06B756217355E8000CAD80 /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F3A946420C570C7008AE09A /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A946220C570C7008AE09A /* NotificationViewController.m */; };
 		1F3A946520C570C7008AE09A /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A946320C570C7008AE09A /* NotificationViewController.xib */; };
 		1F46EBE120CBEA980037445F /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F46EBDF20CBEA980037445F /* ConsoleViewController.m */; };
 		1F46EBE220CBEA980037445F /* ConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F46EBE020CBEA980037445F /* ConsoleViewController.xib */; };
+		1F66F00426D25BDB00ADBBBE /* WoodPeckeriOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F66F00226D25BD600ADBBBE /* WoodPeckeriOS.xcframework */; };
+		1F66F00526D25BDB00ADBBBE /* WoodPeckeriOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F66F00226D25BD600ADBBBE /* WoodPeckeriOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F9DC462200F83C700DFC64E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC461200F83C700DFC64E /* AppDelegate.m */; };
 		1F9DC46A200F83C700DFC64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC469200F83C700DFC64E /* Assets.xcassets */; };
 		1F9DC46D200F83C700DFC64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC46B200F83C700DFC64E /* LaunchScreen.storyboard */; };
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1F06B75B21736E02000CAD80 /* WoodPeckeriOS.framework in Embed Frameworks */,
+				1F66F00526D25BDB00ADBBBE /* WoodPeckeriOS.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,13 +50,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1F06B756217355E8000CAD80 /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WoodPeckeriOS.framework; path = ../WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		1F3A946120C570C7008AE09A /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		1F3A946220C570C7008AE09A /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		1F3A946320C570C7008AE09A /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
 		1F46EBDE20CBEA980037445F /* ConsoleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleViewController.h; sourceTree = "<group>"; };
 		1F46EBDF20CBEA980037445F /* ConsoleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
 		1F46EBE020CBEA980037445F /* ConsoleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsoleViewController.xib; sourceTree = "<group>"; };
+		1F66F00226D25BD600ADBBBE /* WoodPeckeriOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WoodPeckeriOS.xcframework; path = ../WoodPeckeriOS.xcframework; sourceTree = "<group>"; };
 		1F9DC45D200F83C700DFC64E /* WoodPeckerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodPeckerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9DC460200F83C700DFC64E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F9DC461200F83C700DFC64E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F06B75A21736E02000CAD80 /* WoodPeckeriOS.framework in Frameworks */,
+				1F66F00426D25BDB00ADBBBE /* WoodPeckeriOS.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +125,8 @@
 		1F9DC454200F83C700DFC64E = {
 			isa = PBXGroup;
 			children = (
+				1F66F00226D25BD600ADBBBE /* WoodPeckeriOS.xcframework */,
 				1F9DC45F200F83C700DFC64E /* WoodPeckerDemo */,
-				1F06B756217355E8000CAD80 /* WoodPeckeriOS.framework */,
 				1F9DC45E200F83C700DFC64E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -463,15 +463,19 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8HG49Q463F;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = WoodPeckerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = lifebetter.WoodPeckerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,14 +491,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8HG49Q463F;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/../",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WoodPeckerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = lifebetter.WoodPeckerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

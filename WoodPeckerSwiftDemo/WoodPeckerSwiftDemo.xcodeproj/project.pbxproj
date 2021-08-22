@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F66F00826D25CA200ADBBBE /* WoodPeckeriOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F66F00626D25C7100ADBBBE /* WoodPeckeriOS.xcframework */; };
+		1F66F00926D25CA200ADBBBE /* WoodPeckeriOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F66F00626D25C7100ADBBBE /* WoodPeckeriOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F84227920133FD4003BFF5A /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84227820133FD4003BFF5A /* IndexViewController.swift */; };
 		1F842296201340FE003BFF5A /* IOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F842285201340FE003BFF5A /* IOViewController.xib */; };
 		1F84229A201340FE003BFF5A /* SandboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F84228C201340FE003BFF5A /* SandboxViewController.xib */; };
@@ -17,8 +19,6 @@
 		1F8422A420143E28003BFF5A /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422A320143E28003BFF5A /* NetworkViewController.swift */; };
 		1F8422A620144831003BFF5A /* IOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422A520144831003BFF5A /* IOViewController.swift */; };
 		1F8422B020145079003BFF5A /* EchoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8422AF20145079003BFF5A /* EchoService.swift */; };
-		1F8422C220146BFA003BFF5A /* WoodPeckeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */; };
-		1F8422C420146C03003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F90227520131F84007335EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90227420131F84007335EA /* AppDelegate.swift */; };
 		1F90227C20131F84007335EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F90227B20131F84007335EA /* Assets.xcassets */; };
 		1F90227F20131F84007335EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F90227D20131F84007335EA /* LaunchScreen.storyboard */; };
@@ -31,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1F8422C420146C03003BFF5A /* WoodPeckeriOS.framework in Embed Frameworks */,
+				1F66F00926D25CA200ADBBBE /* WoodPeckeriOS.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F66F00626D25C7100ADBBBE /* WoodPeckeriOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WoodPeckeriOS.xcframework; path = ../WoodPeckeriOS.xcframework; sourceTree = "<group>"; };
 		1F84227820133FD4003BFF5A /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 		1F842285201340FE003BFF5A /* IOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOViewController.xib; sourceTree = "<group>"; };
 		1F84228C201340FE003BFF5A /* SandboxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SandboxViewController.xib; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		1F8422A520144831003BFF5A /* IOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOViewController.swift; sourceTree = "<group>"; };
 		1F8422A820144B9C003BFF5A /* WoodPeckerSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WoodPeckerSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		1F8422AF20145079003BFF5A /* EchoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoService.swift; sourceTree = "<group>"; };
-		1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WoodPeckeriOS.framework; path = ../../WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		1F90227120131F84007335EA /* WoodPeckerSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoodPeckerSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F90227420131F84007335EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F90227B20131F84007335EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8422C220146BFA003BFF5A /* WoodPeckeriOS.framework in Frameworks */,
+				1F66F00826D25CA200ADBBBE /* WoodPeckeriOS.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +120,7 @@
 		1F90226820131F84007335EA = {
 			isa = PBXGroup;
 			children = (
+				1F66F00626D25C7100ADBBBE /* WoodPeckeriOS.xcframework */,
 				1F90227320131F84007335EA /* WoodPeckerSwiftDemo */,
 				1F90227220131F84007335EA /* Products */,
 			);
@@ -144,7 +145,6 @@
 				1F90227D20131F84007335EA /* LaunchScreen.storyboard */,
 				1F90228020131F84007335EA /* Info.plist */,
 				1F8422A820144B9C003BFF5A /* WoodPeckerSwiftDemo-Bridging-Header.h */,
-				1F8422C120146BFA003BFF5A /* WoodPeckeriOS.framework */,
 			);
 			path = WoodPeckerSwiftDemo;
 			sourceTree = "<group>";
@@ -351,7 +351,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -368,7 +369,10 @@
 				);
 				INFOPLIST_FILE = WoodPeckerSwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = lifebetter.WoodPeckerSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
@@ -390,7 +394,10 @@
 				);
 				INFOPLIST_FILE = WoodPeckerSwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = lifebetter.WoodPeckerSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;

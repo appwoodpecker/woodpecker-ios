@@ -1,6 +1,0 @@
-framework module WoodPeckeriOS {
-  umbrella header "WoodPeckeriOS.h"
-
-  export *
-  module * { export * }
-}
