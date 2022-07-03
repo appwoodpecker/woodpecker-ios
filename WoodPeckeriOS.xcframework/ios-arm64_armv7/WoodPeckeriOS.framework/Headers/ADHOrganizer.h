@@ -17,6 +17,7 @@
 extern NSString *const kADHHostName;
 extern NSString *const kADHHostAddress;
 extern NSString *const kADHAutoConnectEnabled;
+extern NSString *const kADHUIGestureEnabled;
 
 
 @interface ADHOrganizer : NSObject
@@ -28,6 +29,12 @@ extern NSString *const kADHAutoConnectEnabled;
  * learn more about custom service, please visit http://www.woodpeck.cn/plugin.html
  */
 - (void)registerService: (Class)serviceClazz;
+
+/**
+ * show connection setup window manually, also you can use gesture too,
+ * just long press with two fingers at anywhere of your app.
+ */
+- (void)showUI;
 
 
 @end
