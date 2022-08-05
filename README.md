@@ -1,7 +1,7 @@
 
 ![logo](http://www.woodpeck.cn/assets/img/logo.png)
 
-Hi! this is a demo app for **Woodpecker**
+Hi! this is a demo app for **Woodpecker** ([open source](https://github.com/appwoodpecker/woodpecker-client))
 
 **Woodpecker** is a tool for iOS, MacOS developer, it provides some handy and productive tools which Xcode doesn't. 
 
